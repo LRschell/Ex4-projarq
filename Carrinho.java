@@ -17,7 +17,6 @@ public class Carrinho implements AddProductObserver {
         return instanciaCarrinho;
     }
 
-    @Override
     public double getValorTotal() {
         return valorTotal;
     }
